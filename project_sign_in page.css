@@ -1,0 +1,37 @@
+ html {
+        background-image: url("C1.jpg"); 
+    }
+    
+    form {
+        background-image: url("");
+        
+        display: flexbox;
+        margin: 5% 20% 5% 40%;
+        height: fit-content;
+        width: 20%;
+        border-radius: 4%;
+        border: 0px dotted blue;
+        padding: 30px;
+    }
+    .OR
+    {   
+        text-align: center;
+
+    }
+    hr.OR 
+    {
+        border-top: 1px dotted red;
+    }
+
+    .img {
+        height: 40%;
+        width: 30%;
+        display: block;
+        margin: 0px 40px 10px 20px;
+    }
+    .text,.signup_form,.Login,.create
+    {
+        text-align: center;
+        color: black;
+    }
+    

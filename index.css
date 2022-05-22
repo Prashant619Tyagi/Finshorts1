@@ -1,0 +1,143 @@
+header img {
+    display: inline;
+    ;
+}
+
+header {
+    padding: 9px;
+    background-color: #4FFFB0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    margin: 0%;
+}
+
+.marq {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgb(73, 228, 11);
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.holdingcontainer {
+    max-width: 100%;
+    display: flex;
+    background: #ffffff;
+    padding: 0px;
+    box-sizing: border-box;
+    flex-direction: row;
+    align-items: stretch;
+    margin-top: 5px;
+    margin-bottom: 4px;
+}
+
+.internalcontainerL {
+    flex: 1;
+    background-color: #c0dbe2;
+    padding: 9px;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    margin-right: 2px;
+}
+
+.internalcontainerM {
+    flex: 1;
+    background-color: #cdf1c3;
+    padding: 9px;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.internalcontainerR {
+    flex: 1;
+    background-color: #ccb9da;
+    padding: 9px;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.dasimages {
+    height: auto;
+    width: 100%;
+}
+
+.vmenu {
+    flex: 1;
+    float: right;
+    margin: 0px;
+}
+
+.vmenu a {
+    background-color: rgba(42, 202, 128, 0.658);
+    color: white;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+    height: 13.17%;
+}
+
+.vmenu a:hover {
+    background-color: rgb(89, 160, 116);
+}
+
+.vmenu a.active {
+    background-color: #13fc74e3;
+    color: white;
+}
+
+.topnav-right {
+    float: right;
+}
+
+.topnav-right a {
+    color: blue
+}
+
+.topnav-right a:hover {
+    color: black
+}
+
+.menu {
+    flex: 1;
+    width: auto;
+    margin: 0px;
+    font-size: 0.9em;
+    background-color: #1bce7d;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0em;
+    padding: 0.5em;
+    overflow: hidden;
+    background-color: rgba(70, 204, 164, 0.418);
+}
+
+li a {
+    display: inline;
+    padding: 0.2em;
+    float: left;
+    color: #d63031;
+}
+
+li a:hover {
+    color: blue;
+}
+
+footer {
+    color: white;
+    background-color: #1bce7d;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0em;
+}
+
+footer a {
+    color: black;
+}
